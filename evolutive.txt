@@ -1,0 +1,7 @@
+1) Creare pulsante "cancella tutto" che elimina tutta la lista dei todo.
+Prima di cancellare tutto chiedere conferma all'utente.
+
+2) Creare pulsante che passa da dark mode a light mode e viceversa, 
+cambiando lo stile grafico.
+
+3) Aggiungere, per ogni task, l'informazione sulla data e l'ora di inserimento. 
