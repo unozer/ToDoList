@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!-- Dice al browser che stiamo usando HTML 5 -->
+
+<html>
+    <head>
+        <!-- Il titolo che compare sulla scheda del browser -->
+        <title>To Do List</title>
+        <!-- Icona che compare sulla scheda del browser -->
+        <link rel="icon" href="assets/icon.png">
+        <!-- Collegamento al foglio di stile css -->
+        <link rel="stylesheet" href="style.css">  
+        <!-- Font da GoogleFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">       
+    </head>
+    <body>
+        <div class="container">
+            <!-- Intestazione della pagina -->
+            <header class="panel">
+                <h1>To Do List</h1>
+            </header>
+
+            <!-- Sezione principale -->
+            <main>
+                <!-- Messaggio da mostrare quando non ci sono attività -->
+                <p class="msg-lista-vuota">Nessuna attività da compiere</p>
+
+                <!-- La lista dell attività -->
+                <ul class="todo-list">
+                    <li class="todo-item">
+                        <div class="todo-check">
+                            <img src="assets/check.svg">
+                        </div>
+                        <p class="todo-text">Studiare HTML</p>
+                    </li>
+                    <li class="todo-item">
+                        <div class="todo-check">
+                            <img src="assets/check.svg">
+                        </div>
+                        <p class="todo-text">Fare la spesa</p>
+                    </li>
+                    <li class="todo-item">
+                        <div class="todo-check">
+                            <img src="assets/check.svg">
+                        </div>
+                        <p class="todo-text">Lavare i panni sporchi</p>
+                    </li>
+                </ul>
+
+                <!-- Pannello per aggiungere nuove attività -->
+                <div class="panel add-todo">
+                    <input type="text" placeholder="Aggiungi nuova attività">
+                    <button>
+                        <img src="assets/add.svg" alt="Aggiungi">
+                    </button>
+                </div>
+            </main>
+        </div>
+
+        <!-- Collegamento al file JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>

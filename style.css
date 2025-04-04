@@ -1,0 +1,96 @@
+/*
+    COLOR PALETTE
+    light-green: rgb(210, 239, 232);
+    green: rgb(95, 198, 173);
+    yellow: rgb(217, 255, 102);
+    blue: rgb(52, 75, 201);
+*/
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+
+body {
+    background-color: rgb(210, 239, 232);
+    font-family: 'Arial', sans-serif;
+}
+
+.panel {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(95, 198, 173);
+}
+
+.msg-lista-vuota {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.add-todo {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex-grow: 1;
+    padding-left: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(217, 255, 102);;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 16px 0;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    border-radius: 16px;
+}
+
+.todo-check {
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 16px 0 0 16px;
+    background-color: rgb(217, 255, 102);
+}
+
+.todo-text {
+    padding: 16px;
+}
